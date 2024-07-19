@@ -1,0 +1,209 @@
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    margin:0;
+    padding: 0;
+}
+.navbar{
+    display: flex;
+    justify-content:space-between;
+    background-color:#333;
+    padding: 1rem 2rem;
+    align-items: center;
+
+}
+.logo{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.Search-container{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 1.6px;
+}
+.search-bar{
+    width: 60%;
+    font-size: 1.2rem;
+    padding: 0.5rem 0.75rem;
+    background: transparent; 
+    color:white;
+    border: 1px solid #fff; 
+    font-size: 1rem;
+    border-radius: 5px;
+    
+   
+} 
+
+.nav_icons{
+    display: flex;
+    list-style: none;
+    gap:1.2rem;
+}
+.nav_icons a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 1rem;
+    transform: 0.3s;
+
+}
+.nav_icons a:hover{
+    color: aqua;
+}
+.categories{
+    background-color: #555555;
+    padding: 0.5rem 2rem;
+}
+.category-links{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1.75rem;
+    margin: 0;
+    padding: 0;
+    
+}
+.category-links a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: 0.3s linear;
+}
+.category-links a:hover{
+    color: rgb(42, 233, 169);
+}
+.category-links a i{
+    margin-right: 0.5rem;
+}
+.hero{
+    background-image:url(file:///C:/Users/ashva/OneDrive/Desktop/hero4.png);
+    height: 90vh;
+    background-size: cover;
+    background-position: top 25% right 0;
+    padding:0 8rem ;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    display: flex;
+
+}
+.hero h4{
+    padding-bottom: 0.1rem; 
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+.hero h2{
+    font-size: 4rem;
+    margin-bottom:1px;
+    margin-top: 2px;
+}
+.hero h1{
+    font-size: 3.7rem;
+    color:#088178;
+    padding-bottom:0.5rem;
+    margin-top: 0px;
+
+}
+.hero p{
+    font-size: 1rem;
+    color: rebeccapurple;
+    margin-top: 0rem;
+    margin-bottom: 0rem;
+}
+.hero button{
+    background-image: url(file:///C:/Users/ashva/OneDrive/Desktop/button.png);
+    background-color: transparent;
+    font-weight: 700;
+    border: 0;
+    padding: 1rem 6.5rem 1.5rem 4.5rem;
+    background-repeat: no-repeat;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.hero button:hover{
+    color: #088178;
+}
+
+.features{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    padding: 2rem; 
+}
+
+.features .fe-box{
+    height:min-content;
+    width: 11rem;
+    text-align: center;
+    padding: 1rem 1.5rem;
+    border:1px solid #cce7d0;
+    margin: 1rem 0;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.5);
+    
+    
+} 
+.features .fe-box h6{
+    display: inline-block;
+    background-color: #fddde4;
+    color: #088178;
+    font-size: large;
+
+}
+.features .fe-box img{
+    width: 100%;
+    margin-bottom: 0.7rem;
+}
+.features .fe-box:hover{
+    transform: scale(1.07);
+    cursor: pointer;
+
+}
+.products{
+    text-align: center;
+}
+.card-container{
+    display: flex;
+    justify-content:space-around;
+    gap:1rem;
+    flex-wrap: wrap;
+    padding: 1rem;
+    row-gap: 3rem;
+}
+.products h2{
+    font-size: 2.5rem;
+    color: #088178;
+    margin-bottom:5px ;
+}
+.products p{
+    font-size: 1.1rem;
+    color: gray;
+    margin-bottom: 5px;
+}
+.card{
+    width: 25%;
+    min-width: 10rem;
+    border: 1px solid black;
+    padding: 1rem;
+    box-shadow: 20px 20px 30px rgba(0,0,0,0.5);
+    transition: 0.3s linear;
+    position: relative;
+}
+.card:hover{
+    transform: translateY(-10px);
+    visibility: visible;
+}
+.card img{
+    width: 100%;
+    border-radius: 15px;
+}
+.card .details{
+    text-align: start;
+}
+.card .details span{
+    columns: gray;
+}

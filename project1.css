@@ -112,7 +112,7 @@ body{
     margin-top: 0rem;
     margin-bottom: 0rem;
 }
-.hero button{
+.hero a{
     background-image: url(file:///C:/Users/ashva/OneDrive/Desktop/button.png);
     background-color: transparent;
     font-weight: 700;
@@ -122,6 +122,8 @@ body{
     font-size: 1rem;
     cursor: pointer;
     transition: 0.5s;
+    text-decoration: none;
+    color: black;
 }
 .hero button:hover{
     color: #088178;
@@ -138,7 +140,7 @@ body{
 
 .features .fe-box{
     height:min-content;
-    width: 11rem;
+    width: 9rem;
     text-align: center;
     padding: 1rem 1.5rem;
     border:1px solid #cce7d0;
@@ -155,11 +157,11 @@ body{
 
 }
 .features .fe-box img{
-    width: 100%;
+    width: 70%;
     margin-bottom: 0.7rem;
 }
 .features .fe-box:hover{
-    transform: scale(1.07);
+    transform: scale(1.05);
     cursor: pointer;
 
 }
@@ -171,7 +173,7 @@ body{
     justify-content:space-around;
     gap:1rem;
     flex-wrap: wrap;
-    padding: 1rem;
+    padding: 2rem;
     row-gap: 3rem;
 }
 .products h2{
@@ -182,16 +184,18 @@ body{
 .products p{
     font-size: 1.1rem;
     color: gray;
-    margin-bottom: 5px;
+    margin-bottom: 2rem;
 }
 .card{
     width: 25%;
     min-width: 10rem;
     border: 1px solid black;
+    border-radius: 5px;
     padding: 1rem;
     box-shadow: 20px 20px 30px rgba(0,0,0,0.5);
     transition: 0.3s linear;
     position: relative;
+   
 }
 .card:hover{
     transform: translateY(-10px);
@@ -199,11 +203,40 @@ body{
 }
 .card img{
     width: 100%;
-    border-radius: 15px;
+    border-radius: 10px;
 }
 .card .details{
     text-align: start;
+    margin-bottom: 0.1rem;
+    margin-top: 0.01rem;
 }
 .card .details span{
-    columns: gray;
+    color: gray;
+    
+}
+.card .details .h5{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #555555;
+}
+
+.card .details i{
+    color: orange;
+    margin-bottom: top;
+    cursor: pointer;
+}
+.card .details i :hover{
+    color: rgb(192, 128, 9);
+}
+.card button{
+    position: absolute;
+    right: 1.4rem;
+    bottom: 1.7rem;
+    font-size: 1rem;
+    padding: 5px 10px;
+    background-color: #088178;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
 }

@@ -78,7 +78,8 @@ body{
     margin-right: 0.5rem;
 }
 .hero{
-    background-image:url(file:///C:/Users/ashva/OneDrive/Desktop/hero4.png);
+    /* background-image:url(file:///C:/Users/ashva/OneDrive/Desktop/hero4.png); */
+    background-image: url(file:///C:/Users/ashva/OneDrive/Desktop/Features/hero4.png);
     height: 90vh;
     background-size: cover;
     background-position: top 25% right 0;
@@ -195,6 +196,7 @@ body{
     box-shadow: 20px 20px 30px rgba(0,0,0,0.5);
     transition: 0.3s linear;
     position: relative;
+    background-color: #088178;
    
 }
 .card:hover{
@@ -211,7 +213,7 @@ body{
     margin-top: 0.01rem;
 }
 .card .details span{
-    color: gray;
+    color: white;
     
 }
 .card .details .h5{
@@ -221,12 +223,12 @@ body{
 }
 
 .card .details i{
-    color: orange;
+    color: hsl(39, 93%, 48%);
     margin-bottom: top;
     cursor: pointer;
 }
-.card .details i :hover{
-    color: rgb(192, 128, 9);
+.card .details i:hover{
+    color: yellow;
 }
 .card button{
     position: absolute;
@@ -234,9 +236,50 @@ body{
     bottom: 1.7rem;
     font-size: 1rem;
     padding: 5px 10px;
-    background-color: #088178;
+    background-color: #6b22af;
     color: white;
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+
+
+footer {
+        background-color: black;
+        color: white;
+        bottom: 0;
+        width: 100vw;
+        font-size: 16px;
+      }
+footer * {
+        box-sizing: border-box;
+        border: none;
+        outline: none;
+      }
+
+.copyright {
+    padding: 0.3em 1em;
+    background-color: #25262e;
+}
+.footer-menu{
+    float: left;
+    margin-top: 10px;
+    }
+.footer-menu a{
+    color: #cfd2d6;
+    padding: 6px;
+    text-decoration: none;
+    text-align: left;
+    }
+.footer-menu a:hover, .social i:hover{
+        color: #c7940a;
+      } 
+.copyright p {
+    font-size: 0.9em;
+    text-align: left;
+    }
+@media screen and (max-width: 850px) {
+    .row.primary {
+        grid-template-columns: 1fr;
+        }
 }

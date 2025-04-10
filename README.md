@@ -50,3 +50,5 @@ Connect to a backend/database for product listings
 Add carousel for product banners or featured items
 
 Make the categories dynamic with dropdowns or filters
+
+![image](https://github.com/user-attachments/assets/9cd3816b-47a5-400e-b9f3-2f6d374bd3ea)

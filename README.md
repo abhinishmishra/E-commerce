@@ -50,5 +50,9 @@ Connect to a backend/database for product listings
 Add carousel for product banners or featured items
 
 Make the categories dyn
-![image](https://github.com/user-attachments/assets/127dc30b-4ff6-46a8-8cae-579f5c66c3ef)
+![Screenshot 2025-04-10 224542](https://github.com/user-attachments/assets/4c4ce8aa-437e-4360-ab2e-e92cbae84f63)
+![Screenshot 2025-04-10 224615](https://github.com/user-attachments/assets/c99d09c6-3d53-4992-b544-ba00c9d9e382)
+![Screenshot 2025-04-10 224634](https://github.com/user-attachments/assets/df3df26c-38b1-49d1-b34d-167df6b57773)
+
+
 
